@@ -18,15 +18,6 @@ resource "aws_security_group_rule" "http_in_rule" {
   security_group_id = aws_security_group.ec2_sg.id
 }
 
-resource "aws_security_group_rule" "ssh_in_rule" {
-  type              = "ingress"
-  from_port         = 22
-  to_port           = 22
-  cidr_blocks       = ["0.0.0.0/0"]
-  protocol          = "tcp"
-  security_group_id = aws_security_group.ec2_sg.id
-}
-
 resource "aws_security_group_rule" "sg_egr_rule" {
   type              = "egress"
   from_port         = 0
