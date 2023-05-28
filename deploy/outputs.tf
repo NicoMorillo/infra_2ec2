@@ -15,5 +15,5 @@ output "private_subnets" {
 }
 
 output "load_balancer_link" {
-  value = "http://${aws_lb.my_alb.dns_name}"
+  value = format("http://%s",aws_lb.my_alb.dns_name)
 }

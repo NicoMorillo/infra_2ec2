@@ -46,7 +46,7 @@ __Initiate__ and __run__ the infrastructure, obtaining in the console the __load
 
 ## _**Test:**_
 
-With the __load balancer DNS name__, open your browser and check the page.
+With the __load_balancer_link__, open your browser and check the page.
 
 
 ## _**Destroy all infrastructure:**_
