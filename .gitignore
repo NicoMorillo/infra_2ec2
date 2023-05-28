@@ -1,0 +1,13 @@
+.terraform
+.iml
+.idea
+.tfstate
+.tfstate.backup
+.DS_Store
+*.*-workspace
+**/terraform.tfvars*
+**/terraform.lock/hcl*
+**/.terraform.lock.hcl*
+build
+jenkins_playlist.csv
+manual_playlist.sh
